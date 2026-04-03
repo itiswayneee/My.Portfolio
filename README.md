@@ -1,71 +1,47 @@
-# 🖥️ SamwelOS | High-End Developer Interface
+# 🖥️ Project: Samwel Wayne Portfolio
 
-![Status: Operational](https://img.shields.io/badge/Status-Operational-06b6d4?style=for-the-badge)
-![Environment: Web](https://img.shields.io/badge/Environment-Browser_Only-3b82f6?style=for-the-badge)
-![License: Open Source](https://img.shields.io/badge/License-MIT-white?style=for-the-badge)
-
-A **Cyber-Noir** portfolio experience designed for **Operating System Developers** and **Interface Designers**. This isn't just a website; it's a simulated environment featuring **dynamic kernel-style** rendering and a **PowerShell** integrated bio.
+A high-performance, **visually immersive** personal portfolio featuring a modern **"Operating System"** aesthetic. This project showcases a custom-built interface with **interactive particles**, **terminal simulations**, and **dynamic GitHub integration**.
 
 ---
 
-## ⚡ System Specifications
+## ✨ Key Features
 
-### **Core UI Engine**
-* **Visuals:** Custom **HTML5 Canvas** particle bridge system with `alpha-blending`.
-* **Typography:** Dual-font architecture using `Syne` for headers and `Space Grotesk` for data.
-* **FX:** **Hacker Decode** name animation + **Glassmorphism** navigation bar.
-* **Interactive:** Reactive **dual-stage cursor** (Pointer + Ring) with physics-based trailing.
-
-### **Integrated Modules**
-* **Terminal Emulator:** A simulated **PowerShell** environment displaying `fetch-profile` and `get-stats` outputs.
-* **Live Repository Sync:** Asynchronous **GitHub API v3** integration to "Initialize Source" for live projects.
-* **Scroll Logic:** `IntersectionObserver` driven "Reveal" animations for zero-latency content loading.
+* **Cyber-Noir UI:** A dark-mode interface built with **Tailwind CSS** and custom CSS variables for a deep-space **Navy** theme.
+* **Interactive Background:** Custom **HTML5 Canvas** particle system with dynamic connecting lines that react to page movement.
+* **Hacker Text Effects:** A **"Matrix-style"** decoding animation on the hero name that triggers on load.
+* **Mock Terminal Bio:** A **PowerShell-inspired** interactive terminal component to display **"System Information"** (About Me).
+* **Dynamic Project Fetching:** Integrates directly with the **GitHub REST API** to automatically pull and display your latest repositories.
+* **Custom Cursor:** A dual-element follow cursor (**dot and ring**) with intelligent hover states for interactive elements.
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack
 
-| Module | Implementation |
+| Category | Tools & Technologies |
 | :--- | :--- |
-| **Logic** | `Vanilla JavaScript (ES6+)` |
-| **Styling** | `Tailwind CSS` + `Custom CSS Variables` |
-| **Runtime** | `Node.js` (Project logic) |
-| **Database** | `Firebase` (Service integration) |
-| **Real-time** | `Socket.io` (System connectivity) |
+| **Frontend** | `HTML5`, `CSS3`, `JavaScript (ES6+)` |
+| **Styling** | **Tailwind CSS**, Custom Keyframe Animations |
+| **Icons** | **DevIcons**, **FontAwesome** |
+| **Typography** | `Space Grotesk` & `Syne` |
+| **Data** | **GitHub REST API** |
 
 ---
 
-## 🚀 Deployment Protocol
+## 🚀 Getting Started
 
-### **1. Initialization**
-Clone the core files into your local environment:
+### **1. Prerequisites**
+To run this project locally, you only need a **modern web browser**. No compilation is required.
+
+### **2. Installation**
+> [!NOTE]
+> Run the following commands in your terminal to get started:
+
 ```bash
-# git clone [https://github.com/samwelwayne266-coder/portfolio.git](https://github.com/samwelwayne266-coder/portfolio.git)
+# Clone the repository
+git clone [https://github.com/samwelwayne266-coder/portfolio.git](https://github.com/samwelwayne266-coder/portfolio.git)
 
-2. Execution
-No build step required. Direct browser execution:
+# Navigate to the project directory
+cd portfolio
 
-Bash
-# Using Python to host locally for testing
-python -m http.server 8000
-⚙️ Kernel Configuration
-To reconfigure the system for your own identity, modify the following variables in index.html:
-
-[!CAUTION]
-API KEY ERROR: Ensure you replace the GitHub username in the fetchRepos() function or the project cards will return a 404 Connection Refused error.
-
-Color Palette: Adjust --navy, --blue, and --cyan in the :root selector.
-
-Bio Data: Modify the cmd-line and output-text classes within the mock-terminal section.
-
-Social Links: Update the soc-btn hrefs in the contact section.
-
-📁 Directory Structure
-Plaintext
-📂 Root
- ├── 📄 index.html      # Main System Kernel
- ├── 🎨 style.css       # (Internal) UI/UX Definitions
- └── ⚙️ script.js      # (Internal) Logic & API Handlers
-
-Developed with 💙 by Samwel Wayne
-"Building tools that solve real problems with a high-end aesthetic."
+# Open the project
+open index.html
